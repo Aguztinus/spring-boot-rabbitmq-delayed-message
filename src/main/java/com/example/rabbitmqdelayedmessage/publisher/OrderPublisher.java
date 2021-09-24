@@ -37,7 +37,7 @@ public class OrderPublisher {
                 @Override
                 public Message postProcessMessage(Message message) throws AmqpException {
                     //Set the delay millisecond value for the message
-                    message.getMessageProperties().setHeader("x-delay",5000);
+                    message.getMessageProperties().setHeader("x-delay",MessagingConfig.DELAY_TIME);
                     return message;
                 }
             });

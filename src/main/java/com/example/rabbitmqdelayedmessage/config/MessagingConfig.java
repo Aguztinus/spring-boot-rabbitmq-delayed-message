@@ -17,7 +17,7 @@ public class MessagingConfig {
     public static final String QUEUE = "testing_queue";
     public static final String EXCHANGE = "testing_exchange";
     public static final String ROUTING_KEY = "testing_routingKey";
-    public static final String DELAY_TIME = "5000";
+    public static final int DELAY_TIME = 5000;
 
     @Bean
     public Queue delayQueue() {
