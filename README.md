@@ -1,2 +1,2 @@
-# spring-boot-rabbitmq-delayed-message
-Demo project for Spring Boot RabbitMq Delayed Message
+# Spring Boot RabbitMQ Delayed Message
+Sample project for Spring Boot RabbitMq Delayed Message
